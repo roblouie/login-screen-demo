@@ -1,11 +1,9 @@
-<ion-content padding>
+<ion-content padding style="text-align: center">
   <h3>Login</h3>
 
-  <p>
-    Enter a username below then click login.
-  </p>
+  <p>Enter a username below then click login.</p>
 
-  <input type="text" #username />
+  <div><input type="text" #username /></div>
 
   <button ion-button secondary (click)="login(username.value)">Login</button>
 </ion-content>

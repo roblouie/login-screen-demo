@@ -4,8 +4,8 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { Page1 } from '../pages/page1/page1';
 import { Page2 } from '../pages/page2/page2';
-import {LoginModule} from "./login/login.module";
-import {MenuComponent} from "./menu.component";
+import { LoginModule } from "./login/login.module";
+import { MenuComponent } from "./menu.component";
 
 @NgModule({
   declarations: [

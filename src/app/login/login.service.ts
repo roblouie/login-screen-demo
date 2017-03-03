@@ -8,6 +8,10 @@ export class LoginService {
     this._username = username;
   }
 
+  logout() {
+    this._username = '';
+  }
+
   get isLoggedIn(): boolean {
     return this._username in this;
   }
