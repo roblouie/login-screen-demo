@@ -1,0 +1,11 @@
+<ion-content padding>
+  <h3>Login</h3>
+
+  <p>
+    Enter a username below then click login.
+  </p>
+
+  <input type="text" #username />
+
+  <button ion-button secondary (click)="login(username.value)">Login</button>
+</ion-content>
