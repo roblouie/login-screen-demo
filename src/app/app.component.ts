@@ -23,7 +23,7 @@ export class MyApp {
     }];
 
     if (!this.loginService.isLoggedIn) {
-      componentStack.push({ page: LoginComponent });
+      componentStack.unshift({ page: LoginComponent });
     }
 
     this.nav.insertPages(0, componentStack, { animate: false });

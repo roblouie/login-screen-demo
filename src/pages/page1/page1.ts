@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {LoginService} from "../../app/login/login.service";
+//import {LoginService} from "../../app/login/login.service";
 
 @Component({
   selector: 'page-page1',
@@ -8,9 +8,9 @@ import {LoginService} from "../../app/login/login.service";
 export class Page1 {
   username: string;
 
-  constructor(private loginService: LoginService) {}
+  constructor() {}
 
   ionViewWillEnter() {
-    this.username = this.loginService.username;
+    this.username = 'Test'
   }
 }
